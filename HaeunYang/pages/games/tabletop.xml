@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tabletop.xml/ Haeun Yang/ 3/9/2023 -->
+<!DOCTYPE categories [
+<!ELEMENT categories (video*,tabletop*)>
+<!ELEMENT video (name,desc,genre+,pub*,player,subject,grade,search*,cost?,equipment+,platform*,review*,picture+,url)>
+	<!ATTLIST video game_name CDATA #REQUIRED>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT desc (#PCDATA)>
+ <!ELEMENT genre (#PCDATA)>
+ <!ELEMENT pub (#PCDATA)>
+ <!ELEMENT player (#PCDATA)>
+	<!ATTLIST player mode (single|multi) #REQUIRED>
+ <!ELEMENT subject (#PCDATA)>
+ <!ELEMENT grade (#PCDATA)>
+ <!ELEMENT search (#PCDATA)>
+ <!ELEMENT cost (#PCDATA)>
+ <!ELEMENT equipment (equipName,extraCost?)>
+ <!ELEMENT equipName (#PCDATA)>
+ <!ELEMENT extraCost (#PCDATA)>
+ <!ELEMENT platform (#PCDATA)>
+	<!ENTITY Web "Web browser">
+	<!ENTITY PC "Microsoft Windows, MacOS">
+	<!ENTITY Mob "Android, iOS">
+ <!ELEMENT review (#PCDATA)>
+	<!ATTLIST review star (0|1|2|3|4|5) #REQUIRED>
+ <!ELEMENT picture (#PCDATA)>
+ <!ELEMENT url (#PCDATA)>
+<!ELEMENT tabletop (name,desc,genre+,pub*,player, playTime,subject,grade,search*,cost?,equipment+,review*,picture+,url)>
+	<!ATTLIST tabletop game_name CDATA #REQUIRED>
+ <!ELEMENT playTime (#PCDATA)>
+	<!ENTITY BG "Board game product">
+]>
+
+<categories>
+   <!-- first tabletop game -->
+   <tabletop game_name="rummikub">
+	<name>Rummikub</name>
+	<desc>Rummikub is tile-based multi game where you win if you clean all tiles from your hands by laying down tiles of the same number but different colors or consecutive number in the same color.</desc>
+	<genre>Strategy</genre>
+	<genre>Tile-based game</genre>
+	<pub>publisher of game</pub>
+	<player mode="multi">2-4</player>
+	<playTime>60 min</playTime>
+	<subject>Math</subject>
+	<grade>grade 5</grade>
+	<search>Strategy</search>
+	<search>Number</search>
+	<equipment>
+	  <equipName>&BG;</equipName>
+	  <extraCost>29.99</extraCost>
+	</equipment>
+	<review star="5">Great game! It activates our brain throughout the game.</review>
+	<picture>data/uploads/rummikub_S.webp</picture>
+	<picture>data/uploads/rummikub_M.jpg</picture>
+	<url>https://rummikub.com/</url>
+   </tabletop>
+
+   <!-- second video game -->
+   <tabletop game_name="monopoly">
+	<name>Monopoly</name>
+	<desc>Monopoly is a real-estate board game that players can buy and trade properties to drive their opponents into bankruptcy while moving aroung the game board with two dice.</desc>
+	<genre>economics-themed board game</genre>
+	<pub>Hasbro</pub>
+	<player mode="multi">2-6</player>
+	<playTime>180 min</playTime>
+	<subject>Economic</subject>
+	<grade>grade 4</grade>
+	<search>Property</search>
+	<search>Dice</search>
+	<equipment>
+	  <equipName>&BG;</equipName>
+	  <extraCost>42.99</extraCost>
+	</equipment>
+	<review star="3">play time is too long</review>
+	<picture>data/uploads/monopoly_S.webp</picture>
+	<picture>data/uploads/monopoly_M.jpg</picture>
+	<url>https://www.britannica.com/sports/Monopoly-board-game</url>
+   </tabletop>
+
+   <!-- third video game -->
+   <tabletop game_name="catan">
+   	<name>Catan </name>
+	<desc>Catan is a multi board game that players build roads and settlements with trading and acquiring resources to reach a set number of victory points to win.</desc>
+	<genre>Strategy</genre>
+	<genre>Social</genre>
+	<pub>Catan Studio</pub>
+	<player mode="multi">3-4</player>
+	<playTime>60-90 min</playTime>
+	<subject>Math</subject>
+	<grade>grade 7</grade>
+	<search>Strategy</search>
+	<search>Trade</search>
+	<equipment>
+	  <equipName>&BG;</equipName>
+	  <extraCost>49</extraCost>
+	</equipment>
+	<picture>data/uploads/catan_S.webp</picture>
+	<picture>data/uploads/catan_M.jpg</picture>
+	<url>https://www.catan.com/catan</url>
+   </tabletop>
+</categories>
+

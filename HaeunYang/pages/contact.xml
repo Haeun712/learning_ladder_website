@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Sat, 14 Oct 2023 18:07:10 +0000</pubDate><title><![CDATA[Contact us]]></title><url><![CDATA[contact]]></url><meta><![CDATA[]]></meta><metad><![CDATA[Send a message to Learning Ladder.]]></metad><menu><![CDATA[Contact us]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[<div class="title">
+	<h1>Contact Us</h1>
+</div>
+<div class="contact_info input_container">
+	<h2>send us your questions!</h2>
+	<form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+		<div class="text_input">
+			<div class="name">
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" required>
+				<br><br>
+			</div>
+			<div class="email">
+				<label for="email">Email</label>
+				<input type="email" id="email" required>
+				<br><br>
+			</div>
+			<div class="subject">
+				<label for="subject">Subject</label>
+				<input type="text" id="subject" name="subject" required>
+				<br><br>
+			</div>
+			<div class="message">
+				<textarea id="message" name="message" rows="10" required placeholder="Put your message">		
+				</textarea>
+			</div>
+		</div>
+		<hr>
+		<div class="urgent_wrap">
+			<div class="urgent">
+				<label>Urgency: </label>
+				<input type="radio" name="urgency" id="yes">
+				<label for="yes">Yes</label>
+				<input type="radio" name="urgency" id="no">
+				<label for="no">No</label>
+			</div>
+			<div class="reset">
+				<input type="reset">
+			</div>
+		</div>
+		<div class="submit">
+			<input type="submit" value="Submit">
+		</div>
+	</form>
+</div>]]></content><private><![CDATA[]]></private><author><![CDATA[haeun]]></author></item>

@@ -1,0 +1,266 @@
+/* specific_style.css/ Haeun Yang/ 15/10/2023 */
+/*index(Homepage)*/
+#welcome h2,.video h2,.tabletop h2 {
+	text-decoration: underline;
+	text-align: center;	
+}
+	
+div#welcome {
+	line-height: 1.5;
+	text-align: center;
+	max-width: 1000px;
+	margin: 50px auto 50px auto;
+}
+
+div#welcome p {
+	font-size: 1.2em;
+}
+
+#viewed_id {
+	font-size: 16px;
+}
+
+div.video, div.tabletop {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+div.video li,div.tabletop li {
+	list-style-type: none;
+	height: 200px;
+	background-color: #1F797930;
+	margin: 30px auto 0px auto;
+	width: 80vw;
+	border: 1px solid #1F7979aa;
+	max-width: 1000px;
+}
+
+.tabletop_game img,.video_game img {
+	float: left;
+}
+	
+.tabletop_game p,.video_game p {
+	box-sizing: border-box;
+	height: 200px;
+	padding: 20px;
+	padding-left: 320px;
+	max-width: 1000px;
+}
+	
+span.game_name {
+	font-weight: bold;
+	text-transform: uppercase
+}
+/*about us*/
+.about_wrap {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.aboutImg {
+	padding-top: 50px;
+	text-align: center;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.aboutText {
+	padding: 20px;
+	line-height: 1.5;
+	text-align: center;
+	max-width: 1200px;
+	margin: auto;
+}
+/*pages with input tags (contact, add games)*/
+.input_container h2 {
+	text-align: center;
+}
+
+.input_container {
+	margin: 100px auto 100px auto;
+	padding: 20px;
+	width: 80%;
+	background-color: #1F797930;
+	border-radius: 10px;	
+	border: 2px solid #002121;
+	font-size: 80%;
+	max-width: 500px;
+}
+
+.input_container h2 {
+	margin-bottom: 20px;
+}
+
+
+.text_input label, .text_info label, .number_info label {
+	padding-top: 6.5px;
+}
+.text_input label {
+	width: 100px;
+}
+
+.text_input input {
+	width: 80%;
+	padding: 5px;
+}
+
+.text_info input{
+	padding : 5px;
+}
+
+input.number_info {
+	width: 50px;
+	padding: 5px;
+}
+
+.data_collection legend {
+	padding-bottom: 6.5px;
+}
+
+.data_collection fieldset {
+	border: 1px solid #002121;
+	padding-left: 10px;
+}
+	
+.urgent_wrap {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+		
+}
+textarea {
+	width: 90%;
+}
+	
+input[type=reset] {
+	background-color: #1F797940;
+	border-radius: 4px;
+	padding: 6px 10px;
+	border: 1px solid #002121;
+	font-weight: bold;
+}
+
+input[type=submit] {
+	background-color: #0D6464CC;
+	color: white;
+	border-radius: 4px;
+	padding: 12px 20px;
+	font-weight: bold;
+	font-size: 16px;
+	border: 1px solid #002121;
+}
+	
+.submit {
+	margin-top: 50px;
+	text-align: center;
+}
+/*privacy*/
+.privacy, .category {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+/*terms*/
+.terms h2 {
+	line-height: 1.5;
+}
+
+.terms p,.terms_ul li ,.terms address {
+	line-height: 1.5;
+}
+
+.terms ol li {
+	line-height: 1.5;
+	list-style-type: decimal;
+	margin-left: 1cm;
+}
+	
+.terms {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/*add games*/
+span.required {
+	color: red;
+}
+
+/*category games - xml*/
+.games_category li {
+	list-style: square;
+	margin-left: 1cm;
+}
+
+.games_category img {
+	width: 600px;
+	height: auto;
+}
+.game_desc {
+	font-weight: bold;
+}
+
+@media (max-width: 800px) {
+	div.video li,div.tabletop li {
+		height: auto;
+		width: 400px;
+	}
+	.tabletop_game img,.video_game img {
+		width: 400px;
+		height: auto;
+		margin-bottom: 20px;
+	}
+	.tabletop_game p,.video_game p {
+		height: auto;
+		padding-left: 20px;
+	}
+	.games_category img {
+	width: 400px;
+	}
+}
+
+@media (min-device-width: 600px) and (min-width: 501px){
+	.menubar li {
+		float: left;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.menubar a {
+		border-left: 2px solid #002121;
+		display: inline-block;
+		padding-left: 10px;
+		padding-right: 10px;}
+}
+@media (max-width: 500px) {
+	.menubar li {
+		padding-top: 10px;
+		border: 1px solid #ffffff50;}
+}
+
+/*for mobile*/
+@media(max-device-width: 600px) {
+	div.video li,div.tabletop li {
+		height: auto;
+		width: 250px;
+	}
+	.tabletop_game img,.video_game img {
+		width: 250px;
+		height: auto;
+	}
+	.tabletop_game p,.video_game p {
+		height: auto;
+		padding-left: 20px;
+	}
+	.menubar li {
+		border: 1px solid #ffffff50;
+	}
+	h1 {font-size: 50px}
+	.aboutImg img {width: 200px;}
+	h2{font-size: 20px;
+	}
+	.games_category img {
+	width: 300px;
+	}
+}
+@media (hover:none) {
+	ul.menubar a{font-size: 1.2em}
+}
+

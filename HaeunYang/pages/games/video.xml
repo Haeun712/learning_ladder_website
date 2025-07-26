@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tabletop.xml/ Haeun Yang/ 3/9/2023 -->
+<!DOCTYPE categories [
+<!ELEMENT categories (video*,tabletop*)>
+<!ELEMENT video (name,desc,genre+,pub*,player,subject,grade,search*,cost?,equipment+,platform*,review*,picture+,url)>
+	<!ATTLIST video game_name CDATA #REQUIRED>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT desc (#PCDATA)>
+ <!ELEMENT genre (#PCDATA)>
+ <!ELEMENT pub (#PCDATA)>
+ <!ELEMENT player (#PCDATA)>
+	<!ATTLIST player mode (single|multi) #REQUIRED>
+ <!ELEMENT subject (#PCDATA)>
+ <!ELEMENT grade (#PCDATA)>
+ <!ELEMENT search (#PCDATA)>
+ <!ELEMENT cost (#PCDATA)>
+ <!ELEMENT equipment (equipName,extraCost?)>
+ <!ELEMENT equipName (#PCDATA)>
+ <!ELEMENT extraCost (#PCDATA)>
+ <!ELEMENT platform (#PCDATA)> 
+	<!ENTITY Web "Web browser">
+	<!ENTITY PC "Microsoft Windows, MacOS">
+	<!ENTITY Mob "Android, iOS">
+ <!ELEMENT review (#PCDATA)>
+	<!ATTLIST review star (0|1|2|3|4|5) #REQUIRED>
+ <!ELEMENT picture (#PCDATA)>
+ <!ELEMENT url (#PCDATA)>
+<!ELEMENT tabletop (name,desc,genre+,pub*,player, playTime?,subject,grade,search*,cost?,equipment+,review*,picture+,url)>
+	<!ATTLIST tabletop game_name CDATA #REQUIRED>
+ <!ELEMENT playTime (#PCDATA)>
+	<!ENTITY BG "Board game product">
+]>
+
+<categories>
+   <!-- first video game -->
+   <video game_name="incredibox">
+	<name>Incredibox</name>
+	<desc>Incredibox is a music video game that let you mix, create, and share your own music  by combining seven animated beatboxers.</desc>
+	<genre>Music</genre>
+	<genre>Indie</genre>
+	<genre>Casual</genre>
+	<pub>So Far So Good</pub>
+	<player mode="single">1</player>
+	<subject>Music</subject>
+	<grade>grade 6</grade>
+	<search>Music</search>
+	<search>Creativity</search>
+	<cost>7.99</cost>
+	<equipment>
+	  <equipName>Tablet</equipName>
+	  <extraCost>300</extraCost>
+	</equipment>
+	<equipment>
+	  <equipName>Internet</equipName>
+	</equipment>
+	<platform>&Web;</platform>
+	<platform>&PC;</platform>
+	<platform>&Mob;</platform>
+	<review star="5">I really recommend this game!</review>
+	<review star="5">It is one of the easiest way to create my own music.</review>
+	<picture>data/uploads/incredibox_S.webp</picture>
+	<picture>data/uploads/incredibox_M.jpg</picture>
+	<url>https://www.incredibox.com</url>
+   </video>
+
+   <!-- second video game -->
+   <video game_name="little_alchemy_2">
+	<name>Little Alchemy 2</name>
+	<desc>Mix elements and discover new items with your creativity and a little scientific knowledge.</desc>
+	<genre>Puzzle</genre>
+	<pub>Recloak</pub>
+	<player mode="single">1</player>
+	<subject>Science</subject>
+	<grade>grade 8</grade>
+	<search>Alchemy</search>
+	<search>Creativity</search>
+	<search>Science</search>
+	<equipment>
+	  <equipName>Tablet</equipName>
+	  <extraCost>300</extraCost>
+	</equipment>
+	<equipment>
+	  <equipName>Internet</equipName>
+	</equipment>
+	<platform>&Web;</platform>
+	<platform>&Mob;</platform>
+	<review star="5">This is my favorite game, it stimulate my imagination!</review>
+	<review star="5">I love it!</review>
+	<picture>data/uploads/little_alchemy_2_S.webp</picture>
+	<picture>data/uploads/little_alchemy_2_M.jpg</picture>
+	<url>https://littlealchemy2.com/</url>
+   </video>
+
+   <!-- third video game -->
+   <video game_name="wordscapes">
+	<name>Wordscapes</name>
+	<desc>Wordscapes is word puzzle game that challenge and improve your brain and vocabulary by connecting letters to find hidden words.</desc>
+	<genre>Puzzle</genre>
+	<genre>scrambler</genre>
+	<pub>Peoplefun</pub>
+	<player mode="single">1</player>
+	<subject>English</subject>
+	<grade>grade 3</grade>
+	<search>Vocabulary</search>
+	<search>Word</search>
+	<equipment>
+	  <equipName>Tablet</equipName>
+	  <extraCost>300</extraCost>
+	</equipment>
+	<platform>&Mob;</platform>
+	<review star="4">It's great game, but ads interfere with gameplay.</review>
+	<picture>data/uploads/wordscapes_S.webp</picture>
+	<picture>data/uploads/wordscapes_M.jpg</picture>
+	<url>https://www.peoplefun.com/games</url>
+   </video>
+</categories>
+

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Fri, 20 Oct 2023 05:12:09 +0000</pubDate><title><![CDATA[Add Games]]></title><url><![CDATA[addgames]]></url><meta><![CDATA[]]></meta><metad><![CDATA[Register new games to our websites. Submit the form to Learning Ladder.]]></metad><menu><![CDATA[Add games]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[<div class="title">
+	<h1>Game Registration</h1>
+</div>
+
+<div class="data_collection input_container">
+	<form action="submit.php" method="post" name="game_form">
+	<div class="text_info">
+		<h2>Enter Your Information</h2>
+
+		<div class="user_name"><label for="user_name">Name<span class="required">*</span> </label> <input id="user_name" name="user_name" required="" type="text" /><br />
+			&nbsp;</div>
+
+		<div class="email"><label for="email">Email<span class="required">*</span> </label> <input id="email" required="" type="email" /><br />
+			&nbsp;</div>
+	</div>
+
+	<div><label for="gamesNo">How many games you have submitted before?<span class="required">*</span> </label> <input class="number_info" id="gamesNo" required="" type="number" /><br />
+		&nbsp;</div>
+
+	<div class="binary_choice"><label>Have you taught in the past 5 years?<span class="required">*</span> </label> <input checked="checked" id="yes" name="5years" type="radio" /> <label for="yes">Yes</label> <input id="no" name="5years" type="radio" /> <label for="no">No</label></div>
+
+	<hr />
+	<h2>Enter Game Information</h2>
+
+	<div class="game_name text_info"><label for="game_name">Game Name<span class="required">*</span> </label> <input id="game_name" name="game_name" required="" type="text" /><br />
+		&nbsp;</div>
+
+	<div class="category_select text_info"><label for="category_select">Category<span class="required">*</span> </label> <select id="category_select" name="category_select" style="padding: 5px"><option value="video_game">Video Game</option><option value="tabletop_game">Tabletop Game</option><option value="create_new">Creat a new category</option> </select><br />
+		&nbsp;</div>
+
+	<div class="genre text_info"><label for="genre">Genre<span class="required">*</span> </label> <input id="genre" name="genre" required="" type="text" /><br />
+		&nbsp;</div>
+
+	<div class="publisher text_info"><label for="publisher">Publisher </label> <input id="publisher" name="publisher" type="text" /><br />
+		&nbsp;</div>
+
+	<div class="multi_single"><input checked="checked" id="multi" name="multi_single" type="radio" /> <label for="multi">Multiplayer Game<span class="required">*</span></label> <input id="single" name="multi_single" type="radio" /> <label for="single">Single player Game</label><br />
+		&nbsp;</div>
+
+	<div class="player text_info"><label for="player">Number of player<span class="required">*</span> </label> <input id="player" name="player" required="" type="text" /><br />
+		&nbsp;</div>
+
+	<div class="playTime text_info"><label for="playTime">Play Time </label> <input id="playTime" name="playTime" type="text" /><br />
+		&nbsp;</div>
+
+	<div class="subject text_info"><label for="subject">Related subject<span class="required">*</span> </label> <input id="subject" name="subject" required="" type="text" /><br />
+		&nbsp;</div>
+
+	<div class="grade text_info"><label for="grade">Grade(recommended)<span class="required">*</span> </label> <input id="grade" name="grade" required="" type="text" /><br />
+		&nbsp;</div>
+
+	<div class="desc"><label for="desc">Description of game<span class="required">*</span></label><textarea cols="60" id="desc" name="desc" rows="5" required></textarea><br />
+		&nbsp;</div>
+
+	<div class="search text_info"><label for="search">Search </label> <input id="search" name="search" type="text" /><br />
+		&nbsp;</div>
+
+	<div class="cost"><label for="cost_id">Cost </label> <input class="number_info" id="cost_id" name="cost" onchange="caculateTotal()" type="number" /><br />
+		&nbsp;</div>
+
+	<div class="text_info">
+		<fieldset id="equipments"><legend>Required Equipments</legend>
+
+		<div class="text_info" id="equipment1"><label for="equipment_name_id1">Equipment Name<span class="required">*</span> </label> <input id="equipment_name_id1" name="equipment_name1" required="" type="text" /><br />
+			<br />
+			<label for="equipment_cost_id1">Equipment Cost </label> <input class="number_info" id="equipment_cost_id1" name="equipment_cost1" onchange="caculateTotal()" type="number" /> <input onclick="addEquipment()" type="button" value="+" /><br />
+			&nbsp;</div>
+		</fieldset>
+	</div>
+
+	<div class="total text_info"><label for="total_id">Total Cost: </label> <input id="total_id" name="total_cost" readonly="readonly" type="text" />
+		<p id="error_total">&nbsp;</p>
+	</div>
+
+	<div class="platform text_info"><label for="platform">Platform </label> <input id="platform" name="platform" type="text" /><br />
+		&nbsp;</div>
+
+	<div class="review text_info">
+		<fieldset><legend>Reviews</legend> <label for="star_id1">X out of 5 stars </label> <input class="number_info" id="star_id1" name="star1" type="number" />
+		<p id="error_star1">&nbsp;</p>
+		<label for="review_id1">Comment </label><br />
+		<textarea cols="60" id="review_id1" name="comment1" rows="5">						 
+       		</textarea>
+
+		<hr /> <label for="star_id2">X out of 5 stars </label> <input class="number_info" id="star_id2" name="star2" type="number" />
+		<p id="error_star2">&nbsp;</p>
+		<label for="review_id2">Comment </label><br />
+		<textarea cols="60" id="review_id2" name="comment2" rows="5">        	</textarea>
+
+		<hr /> <label for="star_id3">X out of 5 stars </label> <input class="number_info" id="star_id3" name="star3" type="number" />
+		<p id="error_star3">&nbsp;</p>
+		<label for="review_id3">Comment </label><br />
+		<textarea cols="60" id="review_id3" name="comment3" rows="5">        	</textarea><br />
+		&nbsp;</fieldset>
+	</div>
+
+	<div class="picture"><label for="picture">Related Picture<span class="required">*</span> </label> <input accept="image/png, image/jpeg" id="picture" name="picture" required="" type="file" /><br />
+		&nbsp;</div>
+
+	<div class="website text_info"><label for="website">Related Website<span class="required">*</span> </label> <input id="website" name="website" required="" type="url" /><br />
+		&nbsp;</div>
+
+	<div class="terms"><input id="termsandcondition" name="termsandcondition" required="" type="checkbox" value="have_read" /> <label for="termsandcondition">I have read the terms and conditions<span class="required">*</span></label><br />
+		&nbsp;</div>
+
+	<div class="reset"><input type="reset" /></div>
+
+	<div class="submit"><input onclick="return validation()" type="submit" value="Submit" /></div>
+	</form>
+</div>
+]]></content><private><![CDATA[]]></private><author><![CDATA[haeun]]></author></item>

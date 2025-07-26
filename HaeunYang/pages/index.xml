@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Fri, 20 Oct 2023 02:44:04 +0000</pubDate><title><![CDATA[Education, Share Educational Games, Recommendation]]></title><url><![CDATA[index]]></url><meta><![CDATA[]]></meta><metad><![CDATA[We are sharing exciting educational games for subjects at all levels of education. You can find fun games that can help student learning and improve their thinking and creativity. There are a variety of recommended games by grade level and subject! You can easily find interesting games according to your educational purpose.]]></metad><menu><![CDATA[Home]]></menu><menuOrder><![CDATA[1]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[<div class="title">
+	<h1>Learning Ladder</h1>
+</div>
+
+<div id="welcome">
+	<h2>Welcome to Learning Ladder!</h2>
+
+	<p>We are sharing exciting <strong>educational games</strong> for subjects at all levels of education. You can find fun games that can help student learning and improve <em>their thinking and creativity</em>.</p>
+
+	<p>There are a variety of recommended games by grade level and subject! You can easily find interesting games according to your educational purpose.</p>
+</div>
+
+<p id="viewed_id">&nbsp;</p>
+
+<hr />
+<div class="video">
+	<h2>Video Game</h2>
+
+	<ul>
+		<li class="video_game"><picture> <source height="200" media="(min-width: 800px)" srcset="data/uploads/incredibox_S.webp" width="300" /> <source height="400" media="(min-width: 420px)" srcset="data/uploads/incredibox_M.jpg" width="600" /> <source height="200" media="(max-width: 419px)" srcset="data/uploads/incredibox_S.webp" width="300" /><img alt="Incredibox" height="400" loading="lazy" src="data/uploads/incredibox_M.jpg" width="600" /> </picture>
+
+			<p><span class="game_name">incredibox</span><br />
+				<br />
+				<abbr title="Description">DESC</abbr><br />
+				Mix, create, and share your own music by combining seven animated beatboxers.<br />
+				<a href="https://www.incredibox.com">Go to Incredibox website</a></p>
+		</li>
+		<li class="video_game"><picture> <source height="200" media="(min-width: 800px)" srcset="data/uploads/little_alchemy_2_S.webp" width="300" /> <source height="400" media="(min-width: 420px)" srcset="data/uploads/little_alchemy_2_M.jpg" width="600" /> <source height="200" media="(max-width: 419px)" srcset="data/uploads/little_alchemy_2_S.webp" width="300" /><img alt="Little Alchemy 2" height="400" loading="lazy" src="data/uploads/little_alchemy_2_M.jpg" width="600" /> </picture>
+			<p><span class="game_name">little alchemy 2</span><br />
+				<br />
+				<abbr title="Description">DESC</abbr><br />
+				Mix elements and discover new items with your creativity and a little scientific knowledge.<br />
+				<a href="https://littlealchemy2.com/">Go to Little Alchemy 2 website</a></p>
+		</li>
+		<li class="video_game"><picture> <source height="200" media="(min-width: 800px)" srcset="data/uploads/wordscapes_S.webp" width="300" /> <source height="400" media="(max-width: 799px)" srcset="data/uploads/wordscapes_M.jpg" width="600" /><source height="200" media="(max-width: 419px)" srcset="data/uploads/wordscapes_S.webp" width="300" /><img alt="Wordscapes" height="400" loading="lazy" src="data/uploads/wordscapes_M.jpg" width="600" /></picture>
+			<p><span class="game_name">wordscapes</span><br />
+				<br />
+				<abbr title="Description">DESC</abbr><br />
+				Challenge and improve your brain and vocabulary by connecting letters to find hidden words.<br />
+				<a href="https://www.peoplefun.com/games">Go to Wordscapes website</a></p>
+		</li>
+	</ul>
+</div>
+
+<hr />
+<div class="tabletop">
+	<h2>tabletop Game</h2>
+
+	<ul>
+		<li class="tabletop_game"><picture> <source height="200" media="(min-width: 800px)" srcset="data/uploads/rummikub_S.webp" width="300" /> <source height="400" media="(max-width: 799px)" srcset="data/uploads/rummikub_M.jpg" width="600" /><source height="200" media="(max-width: 419px)" srcset="data/uploads/rummikub_S.webp" width="300" /> <img alt="Rummikub" height="400" loading="lazy" src="data/uploads/rummikub_M.jpg" width="600" /> </picture>
+
+			<p><span class="game_name">rummikub</span><br />
+				<br />
+				<abbr title="Description">DESC</abbr><br />
+				Clean all tiles from your hands by laying down tiles of the same number but different colors or consecutive number in the same color.<br />
+				<a href="https://rummikub.com/">Go to Rummikub&nbsp;website</a></p>
+		</li>
+		<li class="tabletop_game"><picture> <source height="200" media="(min-width: 800px)" srcset="data/uploads/monopoly_S.webp" width="300" /> <source height="400" media="(max-width: 799px)" srcset="data/uploads/monopoly_M.jpg" width="600" /><source height="200" media="(max-width: 419px)" srcset="data/uploads/monopoly_S.webp" width="300" /> <img alt="Monopoly" height="400" loading="lazy" src="data/uploads/monopoly_M.jpg" width="600" /></picture>
+			<p><span class="game_name">monopoly</span><br />
+				<br />
+				<abbr title="Description">DESC</abbr><br />
+				Buy and trade properties to drive their opponents into bankruptcy<br />
+				<a href="https://www.britannica.com/sports/Monopoly-board-game">Go to Monopoly website</a></p>
+		</li>
+		<li class="tabletop_game"><picture> <source height="200" media="(min-width: 800px)" srcset="data/uploads/catan_S.webp" width="300" /> <source height="400" media="(max-width_ 799px)" srcset="data/uploads/catan_M.jpg" width="600" /><source height="200" media="(max-width: 419px)" srcset="data/uploads/catan_S.webp" width="300" /> <img alt="Catan" height="400" loading="lazy" src="data/uploads/catan_M.jpg" width="600" /> </picture>
+			<p><span class="game_name">catan</span><br />
+				<br />
+				<abbr title="Description">DESC</abbr><br />
+				Build roads and settlements with trading and acquiring resources to reach a set number of victory points to win.<br />
+				<a href="https://www.catan.com/catan">Go to Catan website</a></p>
+		</li>
+	</ul>
+</div>
+]]></content><private><![CDATA[]]></private><author><![CDATA[haeun]]></author></item>

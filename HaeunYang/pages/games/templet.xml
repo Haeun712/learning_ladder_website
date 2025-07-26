@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tabletop.xml/ Haeun Yang/ 3/9/2023 -->
+<!DOCTYPE categories [
+<!ELEMENT categories (video*,tabletop*)>
+<!ELEMENT video (name,desc,genre+,pub*,player,subject,grade,search*,cost?,equipment+,platform*,review*,picture+,url)>
+	<!ATTLIST video game_name CDATA #REQUIRED>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT desc (#PCDATA)>
+ <!ELEMENT genre (#PCDATA)>
+ <!ELEMENT pub (#PCDATA)>
+ <!ELEMENT player (#PCDATA)>
+	<!ATTLIST player mode (single|multi) #REQUIRED>
+ <!ELEMENT subject (#PCDATA)>
+ <!ELEMENT grade (#PCDATA)>
+ <!ELEMENT search (#PCDATA)>
+ <!ELEMENT cost (#PCDATA)>
+ <!ELEMENT equipment (equipName,extraCost?)>
+ <!ELEMENT equipName (#PCDATA)>
+ <!ELEMENT extraCost (#PCDATA)>
+ <!ELEMENT platform (#PCDATA)>
+	<!ENTITY Web "Web browser">
+	<!ENTITY PC "Microsoft Windows, MacOS">
+	<!ENTITY Mob "Android, iOS">
+ <!ELEMENT review (#PCDATA)>
+	<!ATTLIST review star (0|1|2|3|4|5) #REQUIRED>
+ <!ELEMENT picture (#PCDATA)>
+ <!ELEMENT url (#PCDATA)>
+<!ELEMENT tabletop (name,desc,genre+,pub*,player, playTime,subject,grade,search*,cost?,equipment+,review*,picture+,url)>
+	<!ATTLIST tabletop game_name CDATA #REQUIRED>
+ <!ELEMENT playTime (#PCDATA)>
+	<!ENTITY BG "Board game product">
+]>
+
+<categories>
+   <video game_name="video_game_name">
+	<name>game name</name>
+	<desc>description of game</desc>
+	<genre>genre of game</genre>
+	<pub>publisher of game</pub>
+	<player mode="single">1</player>
+	<subject>subject related to game</subject>
+	<grade>suggested grade level of game</grade>
+	<search>search tag of game</search>
+	<cost>cost to play</cost>
+	<equipment>
+	  <equipName>name of required equipment</equipName>
+	  <extraCost>addtitional cost of equipment</extraCost>
+	</equipment>
+	<platform>available platform, operating system</platform>
+	<review star="5">review of game</review>
+	<picture>filename of picture of game</picture>
+	<url>url related to game</url>
+   </video>
+   
+   <tabletop game_name="tabletop_game_name">
+	<name>game name</name>
+	<desc>description of game</desc>
+	<genre>genre of game</genre>
+	<pub>publisher of game</pub>
+	<player mode="multi">number of players</player>
+	<playTime>play time</playTime>
+	<subject>subject related to game</subject>
+	<grade>suggested grade level of game</grade>
+	<search>search tag of game</search>
+	<cost>cost to play</cost>
+	<equipment>
+	  <equipName>name of required equipment</equipName>
+	  <extraCost>addtitional cost of equipment</extraCost>
+	</equipment>
+	<review star="5">review of game</review>
+	<picture>filename of picture of game</picture>
+	<url>url related to game</url>
+   </tabletop>
+</categories>

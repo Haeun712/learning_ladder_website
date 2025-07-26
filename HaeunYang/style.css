@@ -1,0 +1,103 @@
+/* style.css/ Haeun Yang/ 7/9/2023 */
+body {
+	font-family: sans-serif;
+	margin-left: 1cm;
+	margin-right: 1cm;
+}
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+} 
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 70px;
+	color: black;
+	text-shadow: 2px 2px gray;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+header {
+	margin: 0 -1cm 0 -1cm;
+}
+
+header h2 {
+	text-align: center;
+	background-color: #0D6464CC;
+	color: white;
+	text-shadow: 2px 2px black;
+	padding: 10px;
+	font-style: italic;
+	font-size: 20px;
+	margin: 0;
+}
+
+/*nav*/
+ul.menubar {
+	background-color: #1F797950;
+	border-top: 1px solid;
+	list-style-type: none;	
+	overflow: hidden;
+	margin: 0;
+}
+
+ul.menubar li {
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+ul.menubar a {
+	text-decoration: none;
+}
+
+
+ul.menubar a:link {
+	color: blue;
+}
+
+ul.menubar a:visited {
+	color: black;
+}
+
+ul.menubar a:hover {
+	font-size: 120%
+}
+
+ul.menubar a:active {
+	color: white;
+}
+
+/*title*/
+div.title {
+	background: url("images/ladder.jpg") no-repeat center;
+	background-size: cover;
+	margin-left: -1cm;
+	margin-right: -1cm;
+	font-style: italic;
+	padding: 150px 0;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+
+/*copyright*/
+address.copyright {
+	text-align: right;
+	background-color: #002121;
+	margin-right: -1cm;
+	margin-left: -1cm;
+	padding: 30px;
+	color: white;
+	font-size: 0.8em;
+	line-height: 1.5;
+}

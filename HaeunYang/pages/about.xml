@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Sat, 14 Oct 2023 18:04:02 +0000</pubDate><title><![CDATA[About us]]></title><url><![CDATA[about]]></url><meta><![CDATA[]]></meta><metad><![CDATA[Learning Ladder is established to create a place where people can share effective games in educational aspects. We believe that gamification in learning has a tremendous effect like increasing student engagement, learning, and retention. So, our organisation seeks to expand gamification in students’ studies as the centre of game information sharing. Our game recommendation with details can help to set the direction of the gamification of education and determine games to play for educational purposes.]]></metad><menu><![CDATA[About us]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[<div class="title">
+	<h1>about us</h1>
+</div>
+
+<main class="about_wrap">
+<div class="aboutText">
+	<h2>learning with games!</h2>
+
+	<p>Learning Ladder is established to create a place where people can share effective games in educational aspects. We believe that gamification in learning has a tremendous effect like increasing student engagement, learning, and retention. So, our organisation seeks to expand gamification in students’ studies as the centre of game information sharing. Our game recommendation with details can help to set the direction of the gamification of education and determine games to play for educational purposes.</p>
+</div>
+
+<div class="aboutImg"><picture> <source height="203" media="(max-width: 399px)" srcset="data/uploads/about_S.webp" width="200" /> <source height="507" media="(min-width: 400px)" srcset="data/uploads/about_M.jpg" width="500" /> <img alt="Learning With Games" height="507" loading="lazy" src="data/uploads/about_M.jpg" width="500" /> </picture></div>
+</main>
+]]></content><private><![CDATA[]]></private><author><![CDATA[haeun]]></author></item>
