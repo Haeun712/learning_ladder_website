@@ -97,21 +97,39 @@ Please do not reuse or redistribute without appropriate attribution.
 ## References for sample data and images
 
 Azerion.(n.d.).Rummikub[Illustration].Key Games.https://keygames.com/rummikub-game/ 
+
 Ebay.(n.d.).Catan[A picture of catan game board].Ebay.https://www.ebay.com.au/itm/402285515760 
+
 Google Play.(2023, May 11).Little Alchemy 2.https://play.google.com/store/apps/details?id=com.recloak.littlealchemy2&hl=en_US
-Holslin,P.(2023, August 10).How much should I be paying for high-speed Internet?.High Speed Internet.com.https://www.highspeedinternet.com/resources/how-much-should-i-be-paying-for-high-speed-internet-resource
+
+Holslin,P.(2023, August 10).How much should I be paying for high-speed Internet?.High Speed 
+
+Internet.com.https://www.highspeedinternet.com/resources/how-much-should-i-be-paying-for-high-speed-internet-resource
+
 Iconduck.(2022).Education game[Icon].Iconduck.https://iconduck.com/icons/211343/education-game
+
 Istock.(2018).[Ladder stands near the wall].Istock.https://www.istockphoto.com/vector/ladder-stands-near-the-wall-gm912636726-251245448
+
 Modyolo.com.(n.d.).Monopoly[Illustration].Modyolo.com.https://modyolo.com/monopoly.html 
+
 People Fun.(n.d.).Wordscapes[Illustration].Kidz Net Kid Search.https://net.kidzsearch.com/wordscapes-club/  
+
 Recloak.(n.d.).Little alchemy 2[Illustration].Little Alchemy 2. https://littlealchemy2.com/
+
 So Far So Good.(n.d.).Incredibox[Illustration].Steam.https://store.steampowered.com/app/1545450/Incredibox/ 
+
 Termly.(2023, August 20).Terms and conditions.https://app.termly.io/dashboard/website/55525f96-6264-4a9c-8810-c5171418a962/terms-of-service.
+
 Visser I/O.(2023, August 20).Privacy policy generator for australian websites.https://visser.io/tools/living-in-australia/privacy-policy-generator/
+
 Wikipidia.(n.d.).Incredibox.https://en.wikipedia.org/wiki/Incredibox
+
 Wikipidia.(n.d.).Wordscapes.https://en.wikipedia.org/wiki/Wordscapes
+
 Wikipidia.(n.d.).Rummikub.https://en.wikipedia.org/wiki/Rummikub
+
 Wikipidia.(n.d.).Monopoly (game).https://en.wikipedia.org/wiki/Monopoly_(game)
+
 Wikipidia.(n.d.).Catan.https://en.wikipedia.org/wiki/Catan
 
 
